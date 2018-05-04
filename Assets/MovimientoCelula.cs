@@ -2,15 +2,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovimientoCelula : MonoBehaviour {
 
 	public float velocidad;
     public bool stopr;
     public bool stopiz;
+    public bool stopray;
+    private int cont;
+    private int numrayos;
+    public Slider energy;
+   
     // Use this for initialization
     void Start () {
-		
+        energy = GameObject.FindObjectOfType<Slider>();
 	}
 	
 	// Update is called once per frame
@@ -71,8 +77,41 @@ public class MovimientoCelula : MonoBehaviour {
     {
         stopr = Physics.Raycast(transform.position, Vector3.right, .67f);
         stopiz = Physics.Raycast(transform.position, Vector3.left, .67f);
+        stopray = Physics.Raycast(transform.position, Vector3.forward, 0.05f);
+        if (stopray.ToString().Equals("True"))
+        {
+            cont++;
+            if (cont == 1)
+            {
+                Destroy(GameObject.FindGameObjectWithTag("rayo"));
+                energy.value=0.7f;
+            }
+            if (cont == 2)
+            {
+                Destroy(GameObject.FindGameObjectWithTag("rayo1"));
+                energy.value = 0.8f;
+            }
+            if (cont == 3)
+            {
+                Destroy(GameObject.FindGameObjectWithTag("rayo2"));
+                energy.value = 0.9f;
+
+            }
+            if (cont == 4)
+            {
+                Destroy(GameObject.FindGameObjectWithTag("rayo3"));
+                energy.value = 1.0f;
+
+            }
+            
+
+
+
+        }
+
+        Debug.Log("Numero de rayos" + cont);
     }
-   
+
 
 
 }
