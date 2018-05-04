@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MovimientoCelula : MonoBehaviour {
@@ -13,15 +14,26 @@ public class MovimientoCelula : MonoBehaviour {
     private int cont;
     private int numrayos;
     public Slider energy;
+    public string nivel;
+    private Text contador;
+    private float tiempo = 60f;
    
     // Use this for initialization
     void Start () {
+        contador = GameObject.FindObjectOfType<Text>();
+        contador.text = " " + tiempo;
         energy = GameObject.FindObjectOfType<Slider>();
+        
 	}
+    
+  
 	
 	// Update is called once per frame
 	void Update () 
 	{
+        tiempo -= Time.deltaTime;
+        contador.text = " " + tiempo.ToString("f0");
+
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
             //Debug.Log("Tocado");
