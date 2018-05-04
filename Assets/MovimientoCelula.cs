@@ -15,14 +15,20 @@ public class MovimientoCelula : MonoBehaviour {
     private int numrayos;
     public Slider energy;
     public string nivel;
-    private Text contador;
+    private Text[] contador;
     private float tiempo = 60f;
+    private int puntajeint = 0000;
+    private int totalpuntaje;
+    private string multi="X1";
    
     // Use this for initialization
     void Start () {
-        contador = GameObject.FindObjectOfType<Text>();
-        contador.text = " " + tiempo;
+        contador = GameObject.FindObjectsOfType<Text>();
+        contador[0].text = " " + multi;
+        contador[1].text = " " + puntajeint;
+        contador[2].text = " " + tiempo;
         energy = GameObject.FindObjectOfType<Slider>();
+      
         
 	}
     
@@ -32,7 +38,7 @@ public class MovimientoCelula : MonoBehaviour {
 	void Update () 
 	{
         tiempo -= Time.deltaTime;
-        contador.text = " " + tiempo.ToString("f0");
+        contador[2].text = " " + tiempo.ToString("f0");
 
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
@@ -97,23 +103,36 @@ public class MovimientoCelula : MonoBehaviour {
             {
                 Destroy(GameObject.FindGameObjectWithTag("rayo"));
                 energy.value=0.7f;
+                totalpuntaje = totalpuntaje + 100;
+                contador[1].text = " " + totalpuntaje;
             }
             if (cont == 2)
             {
                 Destroy(GameObject.FindGameObjectWithTag("rayo1"));
                 energy.value = 0.8f;
+                totalpuntaje = totalpuntaje + 100;
+                contador[1].text = " " + totalpuntaje;
             }
             if (cont == 3)
             {
                 Destroy(GameObject.FindGameObjectWithTag("rayo2"));
                 energy.value = 0.9f;
+                totalpuntaje = totalpuntaje + 100;
+                contador[1].text = " " + totalpuntaje;
+
 
             }
             if (cont == 4)
             {
                 Destroy(GameObject.FindGameObjectWithTag("rayo3"));
                 energy.value = 1.0f;
+                totalpuntaje = totalpuntaje + 100;
+                contador[1].text = " " + totalpuntaje;
 
+            }
+            if (energy.value == 1.0f)
+            {
+                contador[0].text = "X2";
             }
             
 
@@ -121,7 +140,7 @@ public class MovimientoCelula : MonoBehaviour {
 
         }
 
-        Debug.Log("Numero de rayos" + cont);
+       // Debug.Log("Numero de rayos" + cont);
     }
 
 
