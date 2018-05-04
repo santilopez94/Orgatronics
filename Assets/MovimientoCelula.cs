@@ -24,11 +24,14 @@ public class MovimientoCelula : MonoBehaviour {
     // Use this for initialization
     void Start () {
         contador = GameObject.FindObjectsOfType<Text>();
-        contador[0].text = " " + multi;
-        contador[1].text = " " + puntajeint;
-        contador[2].text = " " + tiempo;
+        contador[0].text = " " + puntajeint;
+        contador[1].text = " " + tiempo;
+        contador[3].text = " " + multi;
         energy = GameObject.FindObjectOfType<Slider>();
-      
+        for(int i=0;i<contador.Length;i++)
+        {
+            Debug.Log("Textos" + contador[i]);
+        }
         
 	}
     
@@ -38,7 +41,7 @@ public class MovimientoCelula : MonoBehaviour {
 	void Update () 
 	{
         tiempo -= Time.deltaTime;
-        contador[2].text = " " + tiempo.ToString("f0");
+        contador[1].text = " " + tiempo.ToString("f0");
 
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
@@ -104,21 +107,21 @@ public class MovimientoCelula : MonoBehaviour {
                 Destroy(GameObject.FindGameObjectWithTag("rayo"));
                 energy.value=0.7f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                contador[0].text = " " + totalpuntaje;
             }
             if (cont == 2)
             {
                 Destroy(GameObject.FindGameObjectWithTag("rayo1"));
                 energy.value = 0.8f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                contador[0].text = " " + totalpuntaje;
             }
             if (cont == 3)
             {
                 Destroy(GameObject.FindGameObjectWithTag("rayo2"));
                 energy.value = 0.9f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                contador[0].text = " " + totalpuntaje;
 
 
             }
@@ -127,12 +130,12 @@ public class MovimientoCelula : MonoBehaviour {
                 Destroy(GameObject.FindGameObjectWithTag("rayo3"));
                 energy.value = 1.0f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                contador[0].text = " " + totalpuntaje;
 
             }
             if (energy.value == 1.0f)
             {
-                contador[0].text = "X2";
+                contador[3].text = "X2";
             }
             
 
