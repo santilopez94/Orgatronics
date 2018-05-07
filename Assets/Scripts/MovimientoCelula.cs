@@ -20,6 +20,7 @@ public class MovimientoCelula : MonoBehaviour {
     private int puntajeint = 0000;
     private int totalpuntaje;
     private string multi="X1";
+    private ParticleSystem ps;
    
     // Use this for initialization
     void Start () {
@@ -32,6 +33,8 @@ public class MovimientoCelula : MonoBehaviour {
         {
             Debug.Log("Textos" + contador[i]);
         }
+        ps = GameObject.FindObjectOfType<ParticleSystem>();
+        ps.Stop();
         
 	}
     
@@ -136,6 +139,11 @@ public class MovimientoCelula : MonoBehaviour {
             if (energy.value == 1.0f)
             {
                 contador[3].text = "X2";
+                ps.Play();
+                var color = ps.main;
+                color.startColor = Color.yellow;
+
+            
             }
             
 
