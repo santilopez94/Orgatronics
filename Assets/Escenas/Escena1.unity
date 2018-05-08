@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44360107, g: 0.49291825, b: 0.5724937, a: 1}
+  m_IndirectSpecularColor: {r: 0.44360077, g: 0.49291813, b: 0.5724933, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1221,7 +1221,7 @@ GameObject:
   - component: {fileID: 1215952891}
   - component: {fileID: 1215952890}
   m_Layer: 0
-  m_Name: Cube (20)
+  m_Name: Pared1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5022,7 +5022,7 @@ GameObject:
   - component: {fileID: 1993945555}
   - component: {fileID: 1993945554}
   m_Layer: 0
-  m_Name: Cube (19)
+  m_Name: Pared2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
