@@ -9,6 +9,8 @@ TagManager:
   - rayo1
   - rayo2
   - rayo3
+  - ene1
+  - cel
   layers:
   - Default
   - TransparentFX
