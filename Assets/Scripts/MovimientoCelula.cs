@@ -20,6 +20,8 @@ public class MovimientoCelula : MonoBehaviour {
     private int puntajeint = 0000;
     private int totalpuntaje;
     private string multi="X1";
+    private ParticleSystem ps;
+    
    
     // Use this for initialization
     void Start () {
@@ -32,6 +34,8 @@ public class MovimientoCelula : MonoBehaviour {
         {
             Debug.Log("Textos" + contador[i]);
         }
+        ps = GameObject.FindObjectOfType<ParticleSystem>();
+        ps.Stop();
         
 	}
     
@@ -72,9 +76,10 @@ public class MovimientoCelula : MonoBehaviour {
 
             }
 
-            transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
-        
-	}
+        transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
+       
+
+    }
 
     private void MoverIzquierda()
     {
@@ -93,32 +98,35 @@ public class MovimientoCelula : MonoBehaviour {
     {
         MoverX(3f * velocidad*Time.deltaTime);
     }
+   
+
 
     private void FixedUpdate()
     {
         stopr = Physics.Raycast(transform.position, Vector3.right, .67f);
         stopiz = Physics.Raycast(transform.position, Vector3.left, .67f);
         stopray = Physics.Raycast(transform.position, Vector3.forward, 0.05f);
-        if (stopray.ToString().Equals("True"))
+        
+        if (stopray.ToString().Equals("True") && GameObject.FindGameObjectWithTag("rayo").tag.Equals("rayo"))
         {
             cont++;
             if (cont == 1)
             {
-                Destroy(GameObject.FindGameObjectWithTag("rayo"));
+                Destroy(GameObject.Find("rayo (3)"));
                 energy.value=0.7f;
                 totalpuntaje = totalpuntaje + 100;
                 contador[0].text = " " + totalpuntaje;
             }
             if (cont == 2)
             {
-                Destroy(GameObject.FindGameObjectWithTag("rayo1"));
+                Destroy(GameObject.Find("rayo (4)"));
                 energy.value = 0.8f;
                 totalpuntaje = totalpuntaje + 100;
                 contador[0].text = " " + totalpuntaje;
             }
             if (cont == 3)
             {
-                Destroy(GameObject.FindGameObjectWithTag("rayo2"));
+                Destroy(GameObject.Find("rayo (5)"));
                 energy.value = 0.9f;
                 totalpuntaje = totalpuntaje + 100;
                 contador[0].text = " " + totalpuntaje;
@@ -127,7 +135,7 @@ public class MovimientoCelula : MonoBehaviour {
             }
             if (cont == 4)
             {
-                Destroy(GameObject.FindGameObjectWithTag("rayo3"));
+                Destroy(GameObject.Find("rayo (6)"));
                 energy.value = 1.0f;
                 totalpuntaje = totalpuntaje + 100;
                 contador[0].text = " " + totalpuntaje;
@@ -136,14 +144,19 @@ public class MovimientoCelula : MonoBehaviour {
             if (energy.value == 1.0f)
             {
                 contador[3].text = "X2";
+                ps.Play();
+                var color = ps.main;
+                color.startColor = Color.yellow;
+
+            
             }
             
 
 
 
         }
-
-       // Debug.Log("Numero de rayos" + cont);
+       
+        // Debug.Log("Numero de rayos" + cont);
     }
 
 
