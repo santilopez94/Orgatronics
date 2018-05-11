@@ -81,39 +81,16 @@ public class MovimientoCelula : MonoBehaviour {
 
     }
 
-    private void MoverIzquierda()
+    private void OnTriggerEnter(Collider other)
     {
-
-		MoverX(- 3f * velocidad*Time.deltaTime);
-    }
-
-	private void MoverX(float valor)
-	{
-		Vector3 posOriginal = transform.position;
-        transform.position = new Vector3(posOriginal.x + valor, posOriginal.y, posOriginal.z);
         
-	}
-
-    private void MoverDerecha()
-    {
-        MoverX(3f * velocidad*Time.deltaTime);
-    }
-   
-
-
-    private void FixedUpdate()
-    {
-        stopr = Physics.Raycast(transform.position, Vector3.right, .67f);
-        stopiz = Physics.Raycast(transform.position, Vector3.left, .67f);
-        stopray = Physics.Raycast(transform.position, Vector3.forward, 0.05f);
-        
-        if (stopray.ToString().Equals("True") && GameObject.FindGameObjectWithTag("rayo").tag.Equals("rayo"))
+        if (other.gameObject.CompareTag("rayo"))
         {
             cont++;
             if (cont == 1)
             {
                 Destroy(GameObject.Find("rayo (3)"));
-                energy.value=0.7f;
+                energy.value = 0.7f;
                 totalpuntaje = totalpuntaje + 100;
                 contador[0].text = " " + totalpuntaje;
             }
@@ -148,13 +125,36 @@ public class MovimientoCelula : MonoBehaviour {
                 var color = ps.main;
                 color.startColor = Color.yellow;
 
-            
+
             }
-            
-
-
-
         }
+    }
+
+    private void MoverIzquierda()
+    {
+
+		MoverX(- 3f * velocidad*Time.deltaTime);
+    }
+
+	private void MoverX(float valor)
+	{
+		Vector3 posOriginal = transform.position;
+        transform.position = new Vector3(posOriginal.x + valor, posOriginal.y, posOriginal.z);
+        
+	}
+
+    private void MoverDerecha()
+    {
+        MoverX(3f * velocidad*Time.deltaTime);
+    }
+   
+
+
+    private void FixedUpdate()
+    {
+        stopr = Physics.Raycast(transform.position, Vector3.right, .67f);
+        stopiz = Physics.Raycast(transform.position, Vector3.left, .67f);
+      
        
         // Debug.Log("Numero de rayos" + cont);
     }

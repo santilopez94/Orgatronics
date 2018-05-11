@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovEne : MonoBehaviour
 {
@@ -36,16 +37,23 @@ public class MovEne : MonoBehaviour
         
     }
 
-    private void FixedUpdate()
+    private void OnTriggerEnter(Collider other)
     {
-        stopbac = Physics.Raycast(transform.position, Vector3.forward, 0.05f);
-        if(stopbac==true && GameObject.FindGameObjectWithTag("cel").tag.Equals("cel"))
+
+        if (other.gameObject.CompareTag("cel"))
         {
+            Debug.Log("Entro en la celula");
             Destroy(GameObject.Find("Celula"));
-            Application.LoadLevel(0);
+            SceneManager.LoadScene("Escena1");
+
         }
+        
     }
 
-
     }
+
+    
+
+
+    
 
