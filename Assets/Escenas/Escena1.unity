@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44360077, g: 0.49291813, b: 0.5724933, a: 1}
+  m_IndirectSpecularColor: {r: 0.44360107, g: 0.49291825, b: 0.5724937, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4280709724379512, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1808473265633490, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_Name
@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1848d6d6eb4abcb4bb48de2cb1037592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1
+  velocidad: 3
   stopr: 0
   stopiz: 0
   stopbac: 0
@@ -476,7 +476,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4280709724379512, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1808473265633490, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_Name
@@ -586,7 +586,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4616307578934802, guid: 098240b9eccab8c4fb177760ef72a7f5, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 20303771954837676, guid: 098240b9eccab8c4fb177760ef72a7f5,
         type: 2}
@@ -630,7 +630,12 @@ Prefab:
     - target: {fileID: 114902574302102478, guid: 098240b9eccab8c4fb177760ef72a7f5,
         type: 2}
       propertyPath: velocidad
-      value: 10
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114902574302102478, guid: 098240b9eccab8c4fb177760ef72a7f5,
+        type: 2}
+      propertyPath: nivel
+      value: NIVEL 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 098240b9eccab8c4fb177760ef72a7f5, type: 2}
@@ -681,7 +686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1848d6d6eb4abcb4bb48de2cb1037592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1
+  velocidad: 3
   stopr: 0
   stopiz: 0
   stopbac: 0
@@ -788,7 +793,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4280709724379512, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1808473265633490, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_Name
@@ -883,7 +888,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1104317171
 GameObject:
@@ -948,7 +953,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 58.321003, y: -142.266, z: -122.77601}
 --- !u!1001 &1193311724
 Prefab:
@@ -987,7 +992,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4280709724379512, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1808473265633490, guid: 01c51210d3ca9e54fa682447fd38c7d0, type: 2}
       propertyPath: m_Name
@@ -1138,7 +1143,7 @@ Transform:
   m_LocalScale: {x: 0.71682, y: 8, z: 159.72713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1546828366
 GameObject:
@@ -1186,7 +1191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1848d6d6eb4abcb4bb48de2cb1037592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1
+  velocidad: 3
   stopr: 0
   stopiz: 0
   stopbac: 0
@@ -1287,7 +1292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1848d6d6eb4abcb4bb48de2cb1037592, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 1
+  velocidad: 3
   stopr: 0
   stopiz: 0
   stopbac: 0
@@ -1454,7 +1459,7 @@ Transform:
   m_LocalScale: {x: 0.71682, y: 8, z: 159.72713}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2008881741
 Prefab:
@@ -1577,6 +1582,23 @@ Prefab:
         type: 2}
       propertyPath: m_ScaleFactor
       value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224244159673757678, guid: 546e14fb86207d8469de7e7c1719df6b,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224244159673757678, guid: 546e14fb86207d8469de7e7c1719df6b,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114834083982027208, guid: 546e14fb86207d8469de7e7c1719df6b,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Nivel 1
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 546e14fb86207d8469de7e7c1719df6b, type: 2}
