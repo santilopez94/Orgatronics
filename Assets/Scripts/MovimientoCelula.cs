@@ -15,29 +15,31 @@ public class MovimientoCelula : MonoBehaviour {
     private int numrayos;
     public Slider energy;
     public string nivel;
-    private Text[] contador;
+    private  Text[] contador;
+    private Text timer;
+    private Text nivelt;
+    private Text puntaje;
+    private Text multiplicadort;
     private float tiempo = 60f;
     private int puntajeint = 0000;
     private int totalpuntaje;
     private string multi="X1";
     private ParticleSystem ps;
+    public bool llego;
     
    
     // Use this for initialization
     void Start () {
-        contador = GameObject.FindObjectsOfType<Text>();
 
-        contador[0].text = " " + tiempo;
-        contador[1].text = " " + puntajeint;
-        contador[2].text = " " + multi;
-        contador[3].text = "" + nivel;
-        energy = GameObject.FindObjectOfType<Slider>();
-        for(int i=0;i<contador.Length;i++)
-        {
-            Debug.Log("Textos" +i  +contador[i]);
-        }
+        
+        timer = GameObject.FindGameObjectWithTag("Tiempo").GetComponent<Text>();
+        nivelt = GameObject.FindGameObjectWithTag("nivel").GetComponent<Text>();
+        puntaje = GameObject.FindGameObjectWithTag("puntaje").GetComponent<Text>();
+        multiplicadort = GameObject.FindGameObjectWithTag("multiplicador").GetComponent<Text>();
+        energy= GameObject.FindGameObjectWithTag("energiab").GetComponent<Slider>();
         ps = GameObject.FindObjectOfType<ParticleSystem>();
         ps.Stop();
+
         
 	}
     
@@ -46,8 +48,11 @@ public class MovimientoCelula : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+        GameObject go = GameObject.Find("Meta");
+        LlegoMeta meta = go.GetComponent<LlegoMeta>();
+        llego = meta.llego;
         tiempo -= Time.deltaTime;
-        contador[0].text = " " + tiempo.ToString("f0");
+        timer.text= " " + tiempo.ToString("f0");
 
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
@@ -78,7 +83,13 @@ public class MovimientoCelula : MonoBehaviour {
 
             }
 
-        transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
+        if (llego == false)
+        {
+            transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
+        }else if(llego==true)
+        {
+            transform.Translate(0f * Time.deltaTime * Vector3.forward);
+        }
        
 
     }
@@ -94,21 +105,21 @@ public class MovimientoCelula : MonoBehaviour {
                 Destroy(GameObject.Find("rayo (3)"));
                 energy.value = 0.7f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                puntaje.text = " " + totalpuntaje;
             }
             if (cont == 2)
             {
                 Destroy(GameObject.Find("rayo (4)"));
                 energy.value = 0.8f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                puntaje.text = " " + totalpuntaje;
             }
             if (cont == 3)
             {
                 Destroy(GameObject.Find("rayo (5)"));
                 energy.value = 0.9f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                puntaje.text = " " + totalpuntaje;
 
 
             }
@@ -117,12 +128,12 @@ public class MovimientoCelula : MonoBehaviour {
                 Destroy(GameObject.Find("rayo (6)"));
                 energy.value = 1.0f;
                 totalpuntaje = totalpuntaje + 100;
-                contador[1].text = " " + totalpuntaje;
+                puntaje.text = " " + totalpuntaje;
 
             }
             if (energy.value == 1.0f)
             {
-                contador[2].text = "X2";
+                multiplicadort.text = "X2";
                 ps.Play();
                 var color = ps.main;
                 color.startColor = Color.yellow;

@@ -11,6 +11,13 @@ TagManager:
   - rayo3
   - ene1
   - cel
+  - Tiempo
+  - meta
+  - nivel
+  - puntaje
+  - multiplicador
+  - energiab
+  - ganador
   layers:
   - Default
   - TransparentFX

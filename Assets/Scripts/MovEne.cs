@@ -31,6 +31,7 @@ public class MovEne : MonoBehaviour
 
         if (transform.position.x >= 5 && stopiz==true)
         {
+
             velocidad = -2;
         }
         transform.Translate(velocidad * Time.deltaTime, 0, 0);
