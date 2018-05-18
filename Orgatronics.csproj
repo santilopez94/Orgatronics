@@ -246,6 +246,7 @@
     <Compile Include="Assets\Scripts\LlegoMeta.cs" />
     <Compile Include="Assets\Scripts\MovEne.cs" />
     <Compile Include="Assets\Scripts\MovimientoCelula.cs" />
+    <Compile Include="Assets\Scripts\Peticion.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

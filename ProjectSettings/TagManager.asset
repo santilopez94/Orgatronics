@@ -18,6 +18,8 @@ TagManager:
   - multiplicador
   - energiab
   - ganador
+  - boton
+  - mostrar
   layers:
   - Default
   - TransparentFX
