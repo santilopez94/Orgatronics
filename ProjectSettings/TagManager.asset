@@ -20,6 +20,7 @@ TagManager:
   - ganador
   - boton
   - mostrar
+  - mito
   layers:
   - Default
   - TransparentFX
