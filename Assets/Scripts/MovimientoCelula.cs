@@ -5,9 +5,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MovimientoCelula : MonoBehaviour {
+public class MovimientoCelula : MonoBehaviour
+{
 
-	public float velocidad;
+    public float velocidad;
     public bool stopr;
     public bool stopiz;
     public bool stopray;
@@ -15,7 +16,7 @@ public class MovimientoCelula : MonoBehaviour {
     private int numrayos;
     public Slider energy;
     public string nivel;
-    private  Text[] contador;
+    private Text[] contador;
     private Text timer;
     private Text nivelt;
     private Text puntaje;
@@ -23,36 +24,37 @@ public class MovimientoCelula : MonoBehaviour {
     private float tiempo = 60f;
     private int puntajeint = 0000;
     private int totalpuntaje;
-    private string multi="X1";
+    private string multi = "X1";
     private ParticleSystem ps;
     public bool llego;
-    
-   
-    // Use this for initialization
-    void Start () {
 
-        
+
+    // Use this for initialization
+    void Start()
+    {
+
+
         timer = GameObject.FindGameObjectWithTag("Tiempo").GetComponent<Text>();
         nivelt = GameObject.FindGameObjectWithTag("nivel").GetComponent<Text>();
         puntaje = GameObject.FindGameObjectWithTag("puntaje").GetComponent<Text>();
         multiplicadort = GameObject.FindGameObjectWithTag("multiplicador").GetComponent<Text>();
-        energy= GameObject.FindGameObjectWithTag("energiab").GetComponent<Slider>();
+        energy = GameObject.FindGameObjectWithTag("energiab").GetComponent<Slider>();
         ps = GameObject.FindObjectOfType<ParticleSystem>();
         ps.Stop();
 
-        
-	}
-    
-  
-	
-	// Update is called once per frame
-	void Update () 
-	{
+
+    }
+
+
+
+    // Update is called once per frame
+    void Update()
+    {
         GameObject go = GameObject.Find("Meta");
         LlegoMeta meta = go.GetComponent<LlegoMeta>();
         llego = meta.llego;
         tiempo -= Time.deltaTime;
-        timer.text= " " + tiempo.ToString("f0");
+        timer.text = " " + tiempo.ToString("f0");
 
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
@@ -77,26 +79,27 @@ public class MovimientoCelula : MonoBehaviour {
                 }
             }
 
-                //Mover derecha
-                //Si es menor
-                //Mover izquierda
+            //Mover derecha
+            //Si es menor
+            //Mover izquierda
 
-            }
+        }
 
         if (llego == false)
         {
             transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
-        }else if(llego==true)
+        }
+        else if (llego == true)
         {
             transform.Translate(0f * Time.deltaTime * Vector3.forward);
         }
-       
+
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        
+
         if (other.gameObject.CompareTag("rayo"))
         {
             cont++;
@@ -146,32 +149,36 @@ public class MovimientoCelula : MonoBehaviour {
     private void MoverIzquierda()
     {
 
-		MoverX(- 3f * velocidad*Time.deltaTime);
+        MoverX(-3f * velocidad * Time.deltaTime);
     }
 
-	private void MoverX(float valor)
-	{
-		Vector3 posOriginal = transform.position;
+    private void MoverX(float valor)
+    {
+        Vector3 posOriginal = transform.position;
         transform.position = new Vector3(posOriginal.x + valor, posOriginal.y, posOriginal.z);
-        
-	}
+
+    }
 
     private void MoverDerecha()
     {
-        MoverX(3f * velocidad*Time.deltaTime);
+        MoverX(3f * velocidad * Time.deltaTime);
     }
-   
+
 
 
     private void FixedUpdate()
     {
-        stopr = Physics.Raycast(transform.position, Vector3.right, .67f);
-        stopiz = Physics.Raycast(transform.position, Vector3.left, .67f);
-      
-       
+        stopr = Physics.Raycast(transform.position, Vector3.right, 3f);
+        stopiz = Physics.Raycast(transform.position, Vector3.left, 3f);
+
+
         // Debug.Log("Numero de rayos" + cont);
     }
 
-
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.right * 3f);
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.left * 3f);
+    }
 
 }
