@@ -11,7 +11,7 @@ public class MovimientoCelula : MonoBehaviour
     public float velocidad;
     public bool stopr;
     public bool stopiz;
-    public bool stopray;
+    public bool stopAdelante;
     private int cont;
     private int numrayos;
     public Slider energy;
@@ -32,8 +32,6 @@ public class MovimientoCelula : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
-
         timer = GameObject.FindGameObjectWithTag("Tiempo").GetComponent<Text>();
         nivelt = GameObject.FindGameObjectWithTag("nivel").GetComponent<Text>();
         puntaje = GameObject.FindGameObjectWithTag("puntaje").GetComponent<Text>();
@@ -41,8 +39,6 @@ public class MovimientoCelula : MonoBehaviour
         energy = GameObject.FindGameObjectWithTag("energiab").GetComponent<Slider>();
         ps = GameObject.FindObjectOfType<ParticleSystem>();
         ps.Stop();
-
-
     }
 
 
@@ -53,13 +49,10 @@ public class MovimientoCelula : MonoBehaviour
         GameObject go = GameObject.Find("Meta");
         LlegoMeta meta = go.GetComponent<LlegoMeta>();
         llego = meta.llego;
-        tiempo -= Time.deltaTime;
-        timer.text = " " + tiempo.ToString("f0");
-
+        
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
-            //Debug.Log("Tocado");
-
+            velocidad = 10f;
             int w = Screen.width;
 
             Vector3 p = Input.mousePosition;
@@ -78,21 +71,23 @@ public class MovimientoCelula : MonoBehaviour
                     MoverIzquierda();
                 }
             }
-
-            //Mover derecha
-            //Si es menor
-            //Mover izquierda
-
+        }
+        if (stopAdelante) {
+            Debug.Log("Esta entrando");
+            velocidad = 0f;
+            transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
         }
 
         if (llego == false)
         {
+            tiempo -= Time.deltaTime;
             transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
         }
-        else if (llego == true)
+        else if (llego == true && stopAdelante == false)
         {
             transform.Translate(0f * Time.deltaTime * Vector3.forward);
         }
+        timer.text = " " + tiempo.ToString("f0");
 
 
     }
@@ -170,6 +165,10 @@ public class MovimientoCelula : MonoBehaviour
     {
         stopr = Physics.Raycast(transform.position, Vector3.right, 3f);
         stopiz = Physics.Raycast(transform.position, Vector3.left, 3f);
+        if (GameObject.FindGameObjectWithTag("pared").tag.Equals("pared")) {
+            stopAdelante = Physics.Raycast(transform.position, Vector3.forward, 3f);
+        }
+
 
 
         // Debug.Log("Numero de rayos" + cont);
@@ -179,6 +178,7 @@ public class MovimientoCelula : MonoBehaviour
     {
         Gizmos.DrawLine(transform.position, transform.position + Vector3.right * 3f);
         Gizmos.DrawLine(transform.position, transform.position + Vector3.left * 3f);
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.forward * 3f);
     }
 
 }
