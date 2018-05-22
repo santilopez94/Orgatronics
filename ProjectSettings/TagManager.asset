@@ -3,24 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Cubo
-  - rayo
-  - rayo1
-  - rayo2
-  - rayo3
-  - ene1
-  - cel
-  - Tiempo
-  - meta
-  - nivel
-  - puntaje
-  - multiplicador
-  - energiab
-  - ganador
-  - boton
-  - mostrar
-  - pared
+  tags: []
   layers:
   - Default
   - TransparentFX

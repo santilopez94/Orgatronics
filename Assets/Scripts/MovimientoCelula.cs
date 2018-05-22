@@ -88,8 +88,6 @@ public class MovimientoCelula : MonoBehaviour
             transform.Translate(0f * Time.deltaTime * Vector3.forward);
         }
         timer.text = " " + tiempo.ToString("f0");
-
-
     }
 
     private void OnTriggerEnter(Collider other)
@@ -118,8 +116,6 @@ public class MovimientoCelula : MonoBehaviour
                 energy.value = 0.9f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
-
-
             }
             if (cont == 4)
             {
@@ -127,7 +123,6 @@ public class MovimientoCelula : MonoBehaviour
                 energy.value = 1.0f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
-
             }
             if (energy.value == 1.0f)
             {
@@ -135,15 +130,12 @@ public class MovimientoCelula : MonoBehaviour
                 ps.Play();
                 var color = ps.main;
                 color.startColor = Color.yellow;
-
-
             }
         }
     }
 
     private void MoverIzquierda()
     {
-
         MoverX(-3f * velocidad * Time.deltaTime);
     }
 
@@ -151,7 +143,6 @@ public class MovimientoCelula : MonoBehaviour
     {
         Vector3 posOriginal = transform.position;
         transform.position = new Vector3(posOriginal.x + valor, posOriginal.y, posOriginal.z);
-
     }
 
     private void MoverDerecha()
@@ -165,12 +156,9 @@ public class MovimientoCelula : MonoBehaviour
     {
         stopr = Physics.Raycast(transform.position, Vector3.right, 3f);
         stopiz = Physics.Raycast(transform.position, Vector3.left, 3f);
-        if (GameObject.FindGameObjectWithTag("pared").tag.Equals("pared")) {
+        /*if (GameObject.FindGameObjectWithTag("pared").tag.Equals("pared")) {
             stopAdelante = Physics.Raycast(transform.position, Vector3.forward, 3f);
-        }
-
-
-
+        }*/
         // Debug.Log("Numero de rayos" + cont);
     }
 
@@ -178,7 +166,7 @@ public class MovimientoCelula : MonoBehaviour
     {
         Gizmos.DrawLine(transform.position, transform.position + Vector3.right * 3f);
         Gizmos.DrawLine(transform.position, transform.position + Vector3.left * 3f);
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.forward * 3f);
+        //Gizmos.DrawLine(transform.position, transform.position + Vector3.forward * 3f);
     }
 
 }
