@@ -29,6 +29,8 @@ public class MovimientoCelula : MonoBehaviour
     private ParticleSystem ps;
     public bool llego;
 
+    private Vector3 movFrame;
+
 
     // Use this for initialization
     void Start()
@@ -49,11 +51,9 @@ public class MovimientoCelula : MonoBehaviour
 
         //Si no ha llegado a la meta, disminuya
         if (llego == false) {
-            tiempo -= Time.deltaTime;
-            //Si el tiempo se agota, pierde el nivel
-            if (tiempo == 0)
+            if (tiempo > 0)
             {
-                TiempoAgotado = true;
+                tiempo -= Time.deltaTime;
             }
         }
         timer.text = " " + tiempo.ToString("f0");
@@ -65,7 +65,6 @@ public class MovimientoCelula : MonoBehaviour
         
         if (Input.touchCount > 0 || Input.GetMouseButton(0))
         {
-            velocidad = 10f;
             int w = Screen.width;
 
             Vector3 p = Input.mousePosition;
@@ -85,21 +84,27 @@ public class MovimientoCelula : MonoBehaviour
                 }
             }
         }
-        if (stopAdelante) {
-            Debug.Log("Esta entrando");
-            velocidad = 0f;
-            transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
-        }
+
 
         if (llego == false)
         {
-            transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
+            MoverZ(velocidad * Time.deltaTime);
         }
         else if (llego == true)
         {
             transform.Translate(0f * Time.deltaTime * Vector3.forward);
         }
+        if(debeMoverse)
+            Moverse();
         
+        
+    }
+    private bool debeMoverse = false;
+    private void Moverse()
+    {
+        GetComponent<Rigidbody>().MovePosition(transform.position + movFrame);
+        movFrame = Vector3.zero;
+        debeMoverse = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -154,15 +159,21 @@ public class MovimientoCelula : MonoBehaviour
     private void MoverX(float valor)
     {
         Vector3 posOriginal = transform.position;
-        transform.position = new Vector3(posOriginal.x + valor, posOriginal.y, posOriginal.z);
+        movFrame += new Vector3(valor, 0, 0);
+        debeMoverse = true;
+    }
+
+    private void MoverZ(float valor)
+    {
+       
+        movFrame += new Vector3(0, 0, valor);
+        debeMoverse = true;
     }
 
     private void MoverDerecha()
     {
         MoverX(3f * velocidad * Time.deltaTime);
     }
-
-
 
     private void FixedUpdate()
     {
