@@ -12,6 +12,7 @@ public class MovimientoCelula : MonoBehaviour
     public bool stopr;
     public bool stopiz;
     public bool stopAdelante;
+    public bool TiempoAgotado;
     private int cont;
     private int numrayos;
     public Slider energy;
@@ -21,7 +22,7 @@ public class MovimientoCelula : MonoBehaviour
     private Text nivelt;
     private Text puntaje;
     private Text multiplicadort;
-    private float tiempo = 60f;
+    public float tiempo = 60f;
     private int puntajeint = 0000;
     private int totalpuntaje;
     private string multi = "X1";
@@ -32,6 +33,7 @@ public class MovimientoCelula : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        TiempoAgotado = false;
         timer = GameObject.FindGameObjectWithTag("Tiempo").GetComponent<Text>();
         nivelt = GameObject.FindGameObjectWithTag("nivel").GetComponent<Text>();
         puntaje = GameObject.FindGameObjectWithTag("puntaje").GetComponent<Text>();
@@ -41,11 +43,22 @@ public class MovimientoCelula : MonoBehaviour
         ps.Stop();
     }
 
-
-
     // Update is called once per frame
     void Update()
     {
+
+        //Si no ha llegado a la meta, disminuya
+        if (llego == false) {
+            tiempo -= Time.deltaTime;
+            //Si el tiempo se agota, pierde el nivel
+            if (tiempo == 0)
+            {
+                TiempoAgotado = true;
+            }
+        }
+        timer.text = " " + tiempo.ToString("f0");
+
+
         GameObject go = GameObject.Find("Meta");
         LlegoMeta meta = go.GetComponent<LlegoMeta>();
         llego = meta.llego;
@@ -80,14 +93,13 @@ public class MovimientoCelula : MonoBehaviour
 
         if (llego == false)
         {
-            tiempo -= Time.deltaTime;
             transform.Translate(velocidad * Time.deltaTime * Vector3.forward);
         }
-        else if (llego == true && stopAdelante == false)
+        else if (llego == true)
         {
             transform.Translate(0f * Time.deltaTime * Vector3.forward);
         }
-        timer.text = " " + tiempo.ToString("f0");
+        
     }
 
     private void OnTriggerEnter(Collider other)
