@@ -15,12 +15,17 @@ public class Peticion : MonoBehaviour {
     private string Xml;
     private XmlDocument xmlDoc;
     private string codigo;
+    private Image mito;
+    private Image nuc;
+    private Image nuco;
+    private Image ret;
+    private Image cit;
     /*Sprite organelos*/
-    private Image MitocondriaS;
-    private Image NucleoS;
-    private Image NucleoloS;
-    private Image ReticuloS;
-    private Image CitoplasmaS;
+    //private Image MitocondriaS;
+    //private Image NucleoS;
+    //private Image NucleoloS;
+    //private Image ReticuloS;
+    //private Image CitoplasmaS;
 
     private string Mensaje;
 
@@ -40,14 +45,15 @@ public class Peticion : MonoBehaviour {
 
     private void Start()
     {
-        timer = GameObject.FindGameObjectWithTag("Tiempo").GetComponent<Text>();
+
         mostrar = GameObject.FindGameObjectWithTag("mostrar").GetComponent<Text>();
+       
         
-        MitocondriaS = GameObject.FindGameObjectWithTag("Mitocondria").GetComponent<Image>();
-        CitoplasmaS = GameObject.FindGameObjectWithTag("Citoplasma").GetComponent<Image>();
-        NucleoS = GameObject.FindGameObjectWithTag("Nucleo").GetComponent<Image>();
-        NucleoloS = GameObject.FindGameObjectWithTag("Nucleolo").GetComponent<Image>();
-        ReticuloS = GameObject.FindGameObjectWithTag("Reticulo").GetComponent<Image>();
+        //MitocondriaS = GameObject.FindGameObjectWithTag("Mitocondria").GetComponent<Image>();
+        //CitoplasmaS = GameObject.FindGameObjectWithTag("Citoplasma").GetComponent<Image>();
+        //NucleoS = GameObject.FindGameObjectWithTag("Nucleo").GetComponent<Image>();
+        //NucleoloS = GameObject.FindGameObjectWithTag("Nucleolo").GetComponent<Image>();
+        //ReticuloS = GameObject.FindGameObjectWithTag("Reticulo").GetComponent<Image>();
 
         Empezar();
     }
@@ -78,6 +84,8 @@ public class Peticion : MonoBehaviour {
 
                 if (string.IsNullOrEmpty(Xml))
                 {
+
+
                     mostrar.text = "";
                     yield return new WaitForSeconds(1f);
                     continue;
@@ -98,45 +106,68 @@ public class Peticion : MonoBehaviour {
             if (codigo.Equals(Reticulo))
             {
                 mostrar.text = "Hola soy el reticulo endoplasmatico";
-                ReticuloS.enabled = true;
+                ret = GameObject.FindGameObjectWithTag("Reticulo").GetComponent<Image>();
+                ret.enabled = true;
+                yield return new WaitForSeconds(2f);
+                ret.enabled = false;
+                continue;
+                //ReticuloS.enabled = true;
 
             }
             else if (codigo.Equals(Nucleolo))
             {
                 mostrar.text = "Hola soy el nucleolo";
-                NucleoloS.enabled = true;
+                nuco= GameObject.FindGameObjectWithTag("Nucleolo").GetComponent<Image>();
+                nuco.enabled = true;
+                yield return new WaitForSeconds(2f);
+                nuco.enabled = false;
+                continue;
+                //NucleoloS.enabled = true;
             }
             else if (codigo.Equals(Nucleo))
             {
                 mostrar.text = "Hola soy el nucleo";
-                NucleoS.enabled = true;
+                //NucleoS.enabled = true
+                nuc = GameObject.FindGameObjectWithTag("Nucleo").GetComponent<Image>();
+                nuc.enabled = true;
+                yield return new WaitForSeconds(2f);
+                nuc.enabled = false;
+                continue;
+
+
             }
             else if (codigo.Equals(Mitocondria))
             {
+                mito = GameObject.FindGameObjectWithTag("Mitocondria").GetComponent<Image>();
+                mito.enabled = true;
                 mostrar.text = "Hola soy la mitocondria";
-                MitocondriaS.enabled = true;
+                yield return new WaitForSeconds(2f);
+                mito.enabled = false;
+                continue;
+
+
+
+
+
+                //MitocondriaS.enabled = true;
                 //ImagenOrganelo.transform.Rotate(Vector3.up, 10f * Time.deltaTime);
             }
             else if (codigo.Equals(Citoplasma))
             {
                 mostrar.text = "Hola soy el citoplasma";
-                CitoplasmaS.enabled = true;
+                cit = GameObject.FindGameObjectWithTag("Citoplasma").GetComponent<Image>();
+                cit.enabled = true;
+                mostrar.text = "Hola soy la mitocondria";
+                yield return new WaitForSeconds(2f);
+                cit.enabled = false;
+                continue;
+                //CitoplasmaS.enabled = true;
                 //ImagenOrganelo.sprite = SCitoplasma;
             }
         }
     }
 
-    public void Update()
-    {
-        
-        tiempo -= Time.deltaTime;
-        if(tiempo<0.0f)
-        {
-            //Debug.Break();
-            timer.enabled = false;
-        }
-        timer.text = " " + tiempo.ToString("f0");
-    }
+    
 
 
 }

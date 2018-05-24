@@ -35,6 +35,7 @@ TagManager:
   - Reticulo
   - Citoplasma
   - CanvasOrganelos
+  - canvas1
   layers:
   - Default
   - TransparentFX
