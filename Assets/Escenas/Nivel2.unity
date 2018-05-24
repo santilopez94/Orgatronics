@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 11847328}
   - component: {fileID: 11847327}
   - component: {fileID: 11847326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -198,6 +198,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 11847324}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &27221404
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 492.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &63437324
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +323,7 @@ GameObject:
   - component: {fileID: 114830734}
   - component: {fileID: 114830733}
   - component: {fileID: 114830732}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,6 +396,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 114830730}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &153220942
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -16.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 560.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &197814810
 Prefab:
   m_ObjectHideFlags: 0
@@ -403,7 +495,7 @@ GameObject:
   - component: {fileID: 224127840}
   - component: {fileID: 224127839}
   - component: {fileID: 224127838}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +579,7 @@ GameObject:
   - component: {fileID: 249912135}
   - component: {fileID: 249912134}
   - component: {fileID: 249912133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,6 +652,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 249912131}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &278571576
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 147.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 43
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &291337487
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,7 +709,7 @@ GameObject:
   - component: {fileID: 291337491}
   - component: {fileID: 291337490}
   - component: {fileID: 291337489}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +793,7 @@ GameObject:
   - component: {fileID: 294424967}
   - component: {fileID: 294424966}
   - component: {fileID: 294424965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +923,7 @@ GameObject:
   - component: {fileID: 341820626}
   - component: {fileID: 341820625}
   - component: {fileID: 341820624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -869,7 +1007,7 @@ GameObject:
   - component: {fileID: 349939805}
   - component: {fileID: 349939804}
   - component: {fileID: 349939803}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +1097,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4616307578934802, guid: 098240b9eccab8c4fb177760ef72a7f5, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -77.3
+      value: -97.62
       objectReference: {fileID: 0}
     - target: {fileID: 4616307578934802, guid: 098240b9eccab8c4fb177760ef72a7f5, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1126,7 +1264,7 @@ GameObject:
   - component: {fileID: 367199475}
   - component: {fileID: 367199474}
   - component: {fileID: 367199473}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1256,7 +1394,7 @@ GameObject:
   - component: {fileID: 384453122}
   - component: {fileID: 384453121}
   - component: {fileID: 384453120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1340,7 +1478,7 @@ GameObject:
   - component: {fileID: 404634949}
   - component: {fileID: 404634948}
   - component: {fileID: 404634947}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1413,6 +1551,98 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 404634945}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &418764917
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 718.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &426472623
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 63.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &427287204
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1654,7 @@ GameObject:
   - component: {fileID: 427287208}
   - component: {fileID: 427287207}
   - component: {fileID: 427287206}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1497,6 +1727,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 427287204}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &432563851
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 200.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &441974920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,7 +1784,7 @@ GameObject:
   - component: {fileID: 441974924}
   - component: {fileID: 441974923}
   - component: {fileID: 441974922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1684,7 +1960,7 @@ GameObject:
   - component: {fileID: 499415796}
   - component: {fileID: 499415795}
   - component: {fileID: 499415794}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +2070,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4332798779071834, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
       propertyPath: m_RootOrder
-      value: 34
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 1635646905340212, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
       propertyPath: m_Name
@@ -1802,6 +2078,103 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &592413308
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -38.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &595624704
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -13.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 808.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943626836294674, guid: 6c4b9ae915592504d8adfbada3528876,
+        type: 2}
+      propertyPath: velocidad
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &611723883
 Prefab:
@@ -1914,6 +2287,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &617474364
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &623118779
 Prefab:
   m_ObjectHideFlags: 0
@@ -2003,7 +2422,7 @@ GameObject:
   - component: {fileID: 627787318}
   - component: {fileID: 627787317}
   - component: {fileID: 627787316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2087,7 +2506,7 @@ GameObject:
   - component: {fileID: 643804685}
   - component: {fileID: 643804684}
   - component: {fileID: 643804683}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2171,7 +2590,7 @@ GameObject:
   - component: {fileID: 662858968}
   - component: {fileID: 662858967}
   - component: {fileID: 662858966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2285,7 +2704,7 @@ GameObject:
   - component: {fileID: 681704189}
   - component: {fileID: 681704188}
   - component: {fileID: 681704187}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2369,7 +2788,7 @@ GameObject:
   - component: {fileID: 695512460}
   - component: {fileID: 695512459}
   - component: {fileID: 695512458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2453,7 +2872,7 @@ GameObject:
   - component: {fileID: 799161164}
   - component: {fileID: 799161163}
   - component: {fileID: 799161162}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2583,7 +3002,7 @@ GameObject:
   - component: {fileID: 817286260}
   - component: {fileID: 817286259}
   - component: {fileID: 817286258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2713,7 +3132,7 @@ GameObject:
   - component: {fileID: 892771008}
   - component: {fileID: 892771007}
   - component: {fileID: 892771006}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2797,7 +3216,7 @@ GameObject:
   - component: {fileID: 929674050}
   - component: {fileID: 929674049}
   - component: {fileID: 929674048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2881,7 +3300,7 @@ GameObject:
   - component: {fileID: 936584257}
   - component: {fileID: 936584256}
   - component: {fileID: 936584255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2965,7 +3384,7 @@ GameObject:
   - component: {fileID: 941504958}
   - component: {fileID: 941504957}
   - component: {fileID: 941504956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3049,7 +3468,7 @@ GameObject:
   - component: {fileID: 982322948}
   - component: {fileID: 982322947}
   - component: {fileID: 982322946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3133,7 +3552,7 @@ GameObject:
   - component: {fileID: 989176150}
   - component: {fileID: 989176149}
   - component: {fileID: 989176148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3244,6 +3663,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1059174063
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 25.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 560.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1065437653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3303,7 +3768,7 @@ GameObject:
   - component: {fileID: 1068461015}
   - component: {fileID: 1068461014}
   - component: {fileID: 1068461013}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3387,7 +3852,7 @@ GameObject:
   - component: {fileID: 1099180061}
   - component: {fileID: 1099180060}
   - component: {fileID: 1099180059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3557,6 +4022,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1101189675
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -24.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 633.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1140492159
 GameObject:
   m_ObjectHideFlags: 0
@@ -3568,7 +4079,7 @@ GameObject:
   - component: {fileID: 1140492163}
   - component: {fileID: 1140492162}
   - component: {fileID: 1140492161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3776,7 +4287,7 @@ GameObject:
   - component: {fileID: 1322687884}
   - component: {fileID: 1322687883}
   - component: {fileID: 1322687882}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3890,7 +4401,7 @@ GameObject:
   - component: {fileID: 1372099390}
   - component: {fileID: 1372099389}
   - component: {fileID: 1372099388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4033,7 +4544,7 @@ GameObject:
   - component: {fileID: 1376689779}
   - component: {fileID: 1376689778}
   - component: {fileID: 1376689777}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4117,7 +4628,7 @@ GameObject:
   - component: {fileID: 1380799978}
   - component: {fileID: 1380799977}
   - component: {fileID: 1380799976}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4201,7 +4712,7 @@ GameObject:
   - component: {fileID: 1395639881}
   - component: {fileID: 1395639880}
   - component: {fileID: 1395639879}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4285,7 +4796,7 @@ GameObject:
   - component: {fileID: 1399260723}
   - component: {fileID: 1399260722}
   - component: {fileID: 1399260721}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4395,7 +4906,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4332798779071834, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
       propertyPath: m_RootOrder
-      value: 36
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 1635646905340212, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
       propertyPath: m_Name
@@ -4434,6 +4945,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1459352590
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -32.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 407.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1484495273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,7 +5002,7 @@ GameObject:
   - component: {fileID: 1484495277}
   - component: {fileID: 1484495276}
   - component: {fileID: 1484495275}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4529,7 +5086,7 @@ GameObject:
   - component: {fileID: 1490772258}
   - component: {fileID: 1490772257}
   - component: {fileID: 1490772256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,6 +5205,52 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1513396513
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -29.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 759.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1522536590
 Prefab:
   m_ObjectHideFlags: 0
@@ -4705,7 +5308,7 @@ GameObject:
   - component: {fileID: 1536354908}
   - component: {fileID: 1536354907}
   - component: {fileID: 1536354906}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4778,6 +5381,48 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1536354904}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1542615077
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -14.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1558065561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4808,6 +5453,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1631804663
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -75.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1647811999
 GameObject:
   m_ObjectHideFlags: 0
@@ -4819,7 +5510,7 @@ GameObject:
   - component: {fileID: 1647812003}
   - component: {fileID: 1647812002}
   - component: {fileID: 1647812001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4903,7 +5594,7 @@ GameObject:
   - component: {fileID: 1656279039}
   - component: {fileID: 1656279038}
   - component: {fileID: 1656279037}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4976,6 +5667,52 @@ Transform:
   m_Father: {fileID: 1558065562}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1656796402
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 32.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 286.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1666502053
 GameObject:
   m_ObjectHideFlags: 0
@@ -5006,6 +5743,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1683862704
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 335.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 46
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1687127734
 GameObject:
   m_ObjectHideFlags: 0
@@ -5017,7 +5800,7 @@ GameObject:
   - component: {fileID: 1687127738}
   - component: {fileID: 1687127737}
   - component: {fileID: 1687127736}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5101,7 +5884,7 @@ GameObject:
   - component: {fileID: 1687955803}
   - component: {fileID: 1687955802}
   - component: {fileID: 1687955801}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5185,7 +5968,7 @@ GameObject:
   - component: {fileID: 1691407245}
   - component: {fileID: 1691407244}
   - component: {fileID: 1691407243}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5269,7 +6052,7 @@ GameObject:
   - component: {fileID: 1692032433}
   - component: {fileID: 1692032432}
   - component: {fileID: 1692032431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5342,6 +6125,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1692032429}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1713227115
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 29.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 633.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1727435535
 GameObject:
   m_ObjectHideFlags: 0
@@ -5353,7 +6182,7 @@ GameObject:
   - component: {fileID: 1727435539}
   - component: {fileID: 1727435538}
   - component: {fileID: 1727435537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5475,7 +6304,7 @@ GameObject:
   - component: {fileID: 1734780603}
   - component: {fileID: 1734780602}
   - component: {fileID: 1734780601}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5559,7 +6388,7 @@ GameObject:
   - component: {fileID: 1743643171}
   - component: {fileID: 1743643170}
   - component: {fileID: 1743643169}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5643,7 +6472,7 @@ GameObject:
   - component: {fileID: 1777077037}
   - component: {fileID: 1777077036}
   - component: {fileID: 1777077035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5727,7 +6556,7 @@ GameObject:
   - component: {fileID: 1823790632}
   - component: {fileID: 1823790631}
   - component: {fileID: 1823790630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5811,7 +6640,7 @@ GameObject:
   - component: {fileID: 1838527717}
   - component: {fileID: 1838527716}
   - component: {fileID: 1838527715}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5895,7 +6724,7 @@ GameObject:
   - component: {fileID: 1850648846}
   - component: {fileID: 1850648845}
   - component: {fileID: 1850648844}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6009,7 +6838,7 @@ GameObject:
   - component: {fileID: 1865029565}
   - component: {fileID: 1865029564}
   - component: {fileID: 1865029563}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6093,7 +6922,7 @@ GameObject:
   - component: {fileID: 1874829100}
   - component: {fileID: 1874829099}
   - component: {fileID: 1874829098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6177,7 +7006,7 @@ GameObject:
   - component: {fileID: 1883433157}
   - component: {fileID: 1883433156}
   - component: {fileID: 1883433155}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6261,7 +7090,7 @@ GameObject:
   - component: {fileID: 1932697004}
   - component: {fileID: 1932697003}
   - component: {fileID: 1932697002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6345,7 +7174,7 @@ GameObject:
   - component: {fileID: 1947620394}
   - component: {fileID: 1947620393}
   - component: {fileID: 1947620392}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6429,7 +7258,7 @@ GameObject:
   - component: {fileID: 1949824720}
   - component: {fileID: 1949824719}
   - component: {fileID: 1949824718}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6559,7 +7388,7 @@ GameObject:
   - component: {fileID: 1958246169}
   - component: {fileID: 1958246168}
   - component: {fileID: 1958246167}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6643,7 +7472,7 @@ GameObject:
   - component: {fileID: 1995401111}
   - component: {fileID: 1995401110}
   - component: {fileID: 1995401109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6727,7 +7556,7 @@ GameObject:
   - component: {fileID: 2044635054}
   - component: {fileID: 2044635053}
   - component: {fileID: 2044635052}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerecha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6971,7 +7800,7 @@ GameObject:
   - component: {fileID: 2086726185}
   - component: {fileID: 2086726184}
   - component: {fileID: 2086726183}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierdaInterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7081,7 +7910,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4332798779071834, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
       propertyPath: m_RootOrder
-      value: 35
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 1635646905340212, guid: 7dd00f5dd1e75dc47aafb468337fb165, type: 2}
       propertyPath: m_Name
@@ -7101,7 +7930,7 @@ GameObject:
   - component: {fileID: 2108123119}
   - component: {fileID: 2108123118}
   - component: {fileID: 2108123117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedIzquierda (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7174,6 +8003,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2108123115}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2129339476
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 30.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 63.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4578004479414360, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_RootOrder
+      value: 41
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271582776922116, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+      propertyPath: m_Name
+      value: Enemigo (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6c4b9ae915592504d8adfbada3528876, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2133513837
 GameObject:
   m_ObjectHideFlags: 0
@@ -7185,7 +8060,7 @@ GameObject:
   - component: {fileID: 2133513841}
   - component: {fileID: 2133513840}
   - component: {fileID: 2133513839}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ParedDerechaExterna
   m_TagString: Untagged
   m_Icon: {fileID: 0}

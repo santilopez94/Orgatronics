@@ -21,7 +21,7 @@ public class Peticion : MonoBehaviour {
 
 
     /*Datos del servidor*/
-    private string DireccionIp = "192.168.100.138";
+    private string DireccionIp = "192.168.127.15";
     private string Puerto = "8080";
 
     /*Codigo Tags de los organelos*/

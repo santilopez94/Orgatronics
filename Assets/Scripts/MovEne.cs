@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 public class MovEne : MonoBehaviour
 {
     public float velocidad;
-    public bool stopr;
-    public bool stopiz;
+   
     public bool stopbac;
     private string nivel;
-  
+
+    private Vector3 dirActual = Vector3.right;
+
+
+    public float distRayo = 1;
 
     // Use this for initialization
     void Start()
@@ -21,22 +24,42 @@ public class MovEne : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-        stopr = Physics.Raycast(transform.position, Vector3.right, .5f);
-        stopiz = Physics.Raycast(transform.position, Vector3.left, .5f);
+        bool stopr = false;
+        bool stopiz = false;
 
-        if (transform.position.x < 5 && stopr==true)
-        {
-            velocidad = 4;
-        }
-
-        if (transform.position.x >= 5 && stopiz==true)
-        {
-
-            velocidad = -4;
-        }
-        transform.Translate(velocidad * Time.deltaTime, 0, 0);
+        if(IsMovingIzquierda)
+            stopiz = Physics.Raycast(transform.position, Vector3.left, distRayo, LayerMask.GetMask("enemigos"));
+        if(IsMovingDerecha)
+            stopr = Physics.Raycast(transform.position, Vector3.right, distRayo, LayerMask.GetMask("enemigos"));        
         
+
+        if (stopr)
+        {
+            dirActual = Vector3.left;
+        }
+
+        if (stopiz)
+        {
+            dirActual = Vector3.right;
+        }
+        transform.Translate(velocidad * Time.deltaTime * dirActual);
+        
+    }
+
+    public bool IsMovingIzquierda
+    {
+        get
+        {
+            return dirActual.x < 0;
+        }
+    }
+
+    public bool IsMovingDerecha
+    {
+        get
+        {
+            return dirActual.x > 0;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -67,7 +90,15 @@ public class MovEne : MonoBehaviour
 
     }
 
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.left * distRayo);
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.right * distRayo);
     }
+
+
+
+}
 
     
 

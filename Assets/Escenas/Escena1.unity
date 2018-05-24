@@ -329,9 +329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 3
-  stopr: 0
-  stopiz: 0
   stopbac: 0
+  distRayo: 1
 --- !u!23 &137132628
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -650,9 +649,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 3
-  stopr: 0
-  stopiz: 0
   stopbac: 0
+  distRayo: 1
 --- !u!23 &754335869
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1035,7 +1033,7 @@ GameObject:
   - component: {fileID: 1215952892}
   - component: {fileID: 1215952891}
   - component: {fileID: 1215952890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pared1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1155,9 +1153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidad: 3
-  stopr: 0
-  stopiz: 0
   stopbac: 0
+  distRayo: 1
 --- !u!23 &1546828369
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1310,7 +1307,7 @@ GameObject:
   - component: {fileID: 1993945556}
   - component: {fileID: 1993945555}
   - component: {fileID: 1993945554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pared2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

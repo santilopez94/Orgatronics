@@ -3,7 +3,28 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - cel
+  - meta
+  - rayo
+  - Tiempo
+  - energiab
+  - puntaje
+  - ganador
+  - nivel
+  - multiplicador
+  - ene1
+  - pared
+  - ene2
+  - ene3
+  - ene4
+  - ene5
+  - ene6
+  - ene7
+  - ene8
+  - pared1
+  - pared2
+  - pared3
   layers:
   - Default
   - TransparentFX
@@ -13,7 +34,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - enemigos
   - 
   - 
   - 
