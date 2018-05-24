@@ -25,6 +25,16 @@ TagManager:
   - pared1
   - pared2
   - pared3
+  - boton
+  - mostrar
+  - mito
+  - Organelo
+  - Mitocondria
+  - Nucleo
+  - Nucleolo
+  - Reticulo
+  - Citoplasma
+  - CanvasOrganelos
   layers:
   - Default
   - TransparentFX

@@ -1213,7 +1213,7 @@ Prefab:
     - target: {fileID: 114902574302102478, guid: 098240b9eccab8c4fb177760ef72a7f5,
         type: 2}
       propertyPath: velocidad
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114902574302102478, guid: 098240b9eccab8c4fb177760ef72a7f5,
         type: 2}

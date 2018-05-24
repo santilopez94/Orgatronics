@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -27,10 +28,14 @@ public class LlegoMeta : MonoBehaviour {
             Debug.Log("Entro a la meta");
             llego = true;
             ganador.enabled = true;
-          
-            
-
-
+            StartCoroutine(SiguienteNivel());
         }
+    }
+
+    IEnumerator SiguienteNivel() {
+        yield return new WaitForSeconds(4f);
+        ganador.enabled = false;
+        llego = false;
+        SceneManager.LoadScene("Nivel2");
     }
 }
