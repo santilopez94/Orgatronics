@@ -121,181 +121,190 @@ public class MovimientoCelula : MonoBehaviour
     {
         if (nivel.Equals("1"))
         {
-            if (other.gameObject.CompareTag("rayo"))
+            if (other.gameObject.CompareTag("rayo1"))
             {
-                cont++;
-                if (cont == 1)
-                {
-                    Destroy(GameObject.Find("rayo (3)"));
-                    energy.value = 70;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 2)
-                {
-                    Destroy(GameObject.Find("rayo (4)"));
-                    energy.value = 80;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 3)
-                {
-                    Destroy(GameObject.Find("rayo (5)"));
-                    energy.value = 90;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 4)
-                {
-                    Destroy(GameObject.Find("rayo (6)"));
-                    energy.value = 100;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (energy.value == 100)
-                {
-                    multiplicadort.text = "X2";
-                    ps.Play();
-                    var color = ps.main;
-                    color.startColor = Color.yellow;
-                }
+
+                Destroy(GameObject.Find("rayo (3)"));
+                energy.value = 70;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
             }
-        }
-        if(nivel.Equals("2"))
-        {
-            float actualener=energy.value;
-           
-            if (other.gameObject.CompareTag("rayo"))
+            if (other.gameObject.CompareTag("rayo2"))
             {
-                cont++;
-                if (cont == 1)
-                {
-                    Destroy(GameObject.Find("rayo (3)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                    Math.Round(actualener);
-                }
-                if (cont == 2)
-                {
-                    Destroy(GameObject.Find("rayo (4)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                    Math.Round(actualener);
-                }
-                if (cont == 3)
-                {
-                    Destroy(GameObject.Find("rayo (5)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                    Math.Round(actualener);
-                }
-                if (cont == 4)
-                {
-                    Destroy(GameObject.Find("rayo (6)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                    Math.Round(actualener);
-                }
-                if (cont == 5)
-                {
-                    Destroy(GameObject.Find("rayo (7)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                    Math.Round(energy.value);
-                }
-                if (cont == 6)
-                {
-                    Destroy(GameObject.Find("rayo (8)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 7)
-                {
-                    Destroy(GameObject.Find("rayo (9)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 8)
-                {
-                    Destroy(GameObject.Find("rayo (10)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 9)
-                {
-                    Destroy(GameObject.Find("rayo (11)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 10)
-                {
-                    Destroy(GameObject.Find("rayo (12)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 11)
-                {
-                    Destroy(GameObject.Find("rayo (13)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 12)
-                {
-                    Destroy(GameObject.Find("rayo (14)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 13)
-                {
-                    Destroy(GameObject.Find("rayo (15)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 14)
-                {
-                    Destroy(GameObject.Find("rayo (16)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 15)
-                {
-                    Destroy(GameObject.Find("rayo (17)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (cont == 16)
-                {
-                    Destroy(GameObject.Find("rayo (18)"));
-                    energy.value = actualener + 2.5f;
-                    totalpuntaje = totalpuntaje + 100;
-                    puntaje.text = " " + totalpuntaje;
-                }
-                if (energy.value == 100)
-                {
-                    multiplicadort.text = "X2";
-                    ps.Play();
-                    var color = ps.main;
-                    color.startColor = Color.yellow;
-                }
+
+                Destroy(GameObject.Find("rayo (4)"));
+                energy.value = 80;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo3"))
+            {
+
+                Destroy(GameObject.Find("rayo (5)"));
+                energy.value = 90;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo4"))
+            {
+
+                Destroy(GameObject.Find("rayo (6)"));
+                energy.value = 100;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
             }
 
+          
+            if (energy.value == 100)
+            {
+                multiplicadort.text = "X2";
+                ps.Play();
+                var color = ps.main;
+                color.startColor = Color.yellow;
+            }
+            
         }
-    }
+        if (nivel.Equals("2"))
+        {
+            float actualener = energy.value;
+
+            if (other.gameObject.CompareTag("rayo1"))
+            {
+
+                Destroy(GameObject.Find("rayo (3)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+                Math.Round(actualener);
+            }
+            if (other.gameObject.CompareTag("rayo2"))
+            {
+
+                Destroy(GameObject.Find("rayo (4)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+                Math.Round(actualener);
+            }
+            if (other.gameObject.CompareTag("rayo3"))
+            {
+
+                Destroy(GameObject.Find("rayo (5)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+                Math.Round(actualener);
+            }
+            if (other.gameObject.CompareTag("rayo4"))
+            {
+
+                Destroy(GameObject.Find("rayo (6)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+                Math.Round(actualener);
+            }
+            if (other.gameObject.CompareTag("rayo5"))
+            {
+
+                Destroy(GameObject.Find("rayo (7)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+                Math.Round(actualener);
+            }
+            if (other.gameObject.CompareTag("rayo6"))
+            {
+                Destroy(GameObject.Find("rayo (8)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo7"))
+            {
+                Destroy(GameObject.Find("rayo (9)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo8"))
+            {
+                Destroy(GameObject.Find("rayo (10)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo9"))
+            {
+                Destroy(GameObject.Find("rayo (11)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo10"))
+            {
+                Destroy(GameObject.Find("rayo (12)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo11"))
+            {
+                Destroy(GameObject.Find("rayo (13)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo12"))
+            {
+                Destroy(GameObject.Find("rayo (14)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo13"))
+            {
+                Destroy(GameObject.Find("rayo (15)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo14"))
+            {
+                Destroy(GameObject.Find("rayo (16)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo15"))
+            {
+                Destroy(GameObject.Find("rayo (17)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+            if (other.gameObject.CompareTag("rayo16"))
+            {
+                Destroy(GameObject.Find("rayo (18)"));
+                energy.value = actualener + 2.5f;
+                totalpuntaje = totalpuntaje + 100;
+                puntaje.text = " " + totalpuntaje;
+            }
+
+
+            if (energy.value == 100)
+            {
+                multiplicadort.text = "X2";
+                ps.Play();
+                var color = ps.main;
+                color.startColor = Color.yellow;
+            }
+        }
+
+
+
+
+        }
 
     private void MoverIzquierda()
     {

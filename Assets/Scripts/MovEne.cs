@@ -9,6 +9,7 @@ public class MovEne : MonoBehaviour
    
     public bool stopbac;
     private string nivel;
+    private AudioSource sonido;
 
     private Vector3 dirActual = Vector3.right;
 
@@ -18,7 +19,7 @@ public class MovEne : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-       
+        sonido = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -64,6 +65,7 @@ public class MovEne : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
         GameObject go = GameObject.Find("Celula");
         MovimientoCelula cel = go.GetComponent<MovimientoCelula>();
         nivel = cel.nivel;
@@ -71,6 +73,7 @@ public class MovEne : MonoBehaviour
         {
             if (other.gameObject.CompareTag("cel"))
             {
+                sonido.Play();
                 Debug.Log("Entro en la celula");
                 Destroy(GameObject.Find("Celula"));
                 SceneManager.LoadScene("Escena1");
@@ -81,7 +84,7 @@ public class MovEne : MonoBehaviour
         {
             if (other.gameObject.CompareTag("cel"))
             {
-                Debug.Log("Entro en la celula");
+                sonido.Play();
                 Destroy(GameObject.Find("Celula"));
                 SceneManager.LoadScene("Nivel2");
 
