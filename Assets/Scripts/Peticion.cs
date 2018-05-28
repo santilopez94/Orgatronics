@@ -30,7 +30,7 @@ public class Peticion : MonoBehaviour {
     private string Mensaje;
 
     /*Datos del servidor*/
-    private string DireccionIp = "192.168.127.15";
+    private string DireccionIp = "192.168.100.138";
     private string Puerto = "8080";
 
     /*Codigo Tags de los organelos*/
@@ -74,13 +74,13 @@ public class Peticion : MonoBehaviour {
 
             if (www.isNetworkError)
             {
-                Debug.Log(www.error);
+                Debug.Log("Error "+ www.error);
             }
             else
             {
                 // Show results as text
                 Xml = www.downloadHandler.text;
-                Debug.Log(Xml);
+                Debug.Log("[XML] "+Xml);
 
                 if (string.IsNullOrEmpty(Xml))
                 {
@@ -157,7 +157,6 @@ public class Peticion : MonoBehaviour {
                 mostrar.text = "Hola soy el citoplasma";
                 cit = GameObject.FindGameObjectWithTag("Citoplasma").GetComponent<Image>();
                 cit.enabled = true;
-                mostrar.text = "Hola soy la mitocondria";
                 yield return new WaitForSeconds(2f);
                 cit.enabled = false;
                 continue;

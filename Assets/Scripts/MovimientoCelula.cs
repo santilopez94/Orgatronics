@@ -23,7 +23,9 @@ public class MovimientoCelula : MonoBehaviour
     private Text puntaje;
     private Text multiplicadort;
     public float tiempo;
-    private int puntajeint = 0000;
+    /*Contador puntaje*/
+    public int puntuacion = 0;
+
     private int totalpuntaje;
     private string multi = "X1";
     private ParticleSystem ps;
