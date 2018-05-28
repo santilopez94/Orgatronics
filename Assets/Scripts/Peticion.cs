@@ -30,7 +30,7 @@ public class Peticion : MonoBehaviour {
     private string Mensaje;
 
     /*Datos del servidor*/
-    private string DireccionIp = "192.168.100.138";
+    private string DireccionIp = "192.168.127.27";
     private string Puerto = "8080";
 
     /*Codigo Tags de los organelos*/
@@ -144,11 +144,6 @@ public class Peticion : MonoBehaviour {
                 yield return new WaitForSeconds(2f);
                 mito.enabled = false;
                 continue;
-
-
-
-
-
                 //MitocondriaS.enabled = true;
                 //ImagenOrganelo.transform.Rotate(Vector3.up, 10f * Time.deltaTime);
             }
