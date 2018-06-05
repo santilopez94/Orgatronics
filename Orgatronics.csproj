@@ -251,6 +251,10 @@
     <Compile Include="Assets\Scripts\MovEne.cs" />
     <Compile Include="Assets\Scripts\MovimientoCelula.cs" />
     <Compile Include="Assets\Scripts\Peticion.cs" />
+    <Compile Include="Assets\Scripts\Peticion1.cs" />
+    <Compile Include="Assets\Scripts\Peticion2.cs" />
+    <Compile Include="Assets\Scripts\Peticion3.cs" />
+    <Compile Include="Assets\Scripts\Peticion4.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\SeguirPersonaje.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
