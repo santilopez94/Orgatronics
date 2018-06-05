@@ -145,10 +145,10 @@ RectTransform:
   m_Father: {fileID: 1270803013}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 18.0046, y: -207}
-  m_SizeDelta: {x: -1060.6, y: -671.98}
+  m_AnchorMin: {x: 0.44015625, y: 0.16125}
+  m_AnchorMax: {x: 0.5973126, y: 0.31875002}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &263939593
 MonoBehaviour:
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 800}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -585,9 +585,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -366, y: -207}
+  m_AnchoredPosition: {x: -366.00018, y: -207.00005}
   m_SizeDelta: {x: 288.4, y: 86.669}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.49999994, y: 0.5}
 --- !u!114 &886204557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -741,8 +741,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0046539, y: -0.0016708}
-  m_SizeDelta: {x: 1349.2, y: 758.94}
+  m_AnchoredPosition: {x: 0.0038376, y: -0.00057697}
+  m_SizeDelta: {x: 1306.4, y: 826.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070540020
 MonoBehaviour:
@@ -1456,11 +1456,11 @@ RectTransform:
   m_Father: {fileID: 886204556}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -138.7609, y: -43.5}
+  m_SizeDelta: {x: 287, y: 87}
+  m_Pivot: {x: 0.52, y: 0.5}
 --- !u!114 &1762904234
 MonoBehaviour:
   m_ObjectHideFlags: 0
