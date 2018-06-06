@@ -112,6 +112,7 @@ public class Peticion : MonoBehaviour {
                     yield return new WaitForSeconds(2f);
                     cit.enabled = false;
                     sig.interactable = true;
+                    Application.OpenURL("https://www.youtube.com/watch?v=b-hyqOM-4aA");
                     continue;
                     //CitoplasmaS.enabled = true;
                     //ImagenOrganelo.sprite = SCitoplasma;
