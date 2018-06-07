@@ -110,7 +110,7 @@ public class Peticion4: MonoBehaviour
                     yield return new WaitForSeconds(2f);
                     cit.enabled = false;
                     sig.interactable = true;
-                    
+                    Application.OpenURL("https://www.youtube.com/watch?v=xXG7lfUTCmM");
                     continue;
                     //CitoplasmaS.enabled = true;
                     //ImagenOrganelo.sprite = SCitoplasma;
