@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Escenas/MenuPrincipal.unity
+- path: Assets/Escenas/EscenaRetos2.unity
   isLoaded: 1
   isActive: 1
