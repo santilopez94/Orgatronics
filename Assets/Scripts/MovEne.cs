@@ -65,7 +65,6 @@ public class MovEne : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
         GameObject go = GameObject.Find("Celula");
         MovimientoCelula cel = go.GetComponent<MovimientoCelula>();
         nivel = cel.nivel;
@@ -89,8 +88,7 @@ public class MovEne : MonoBehaviour
                 SceneManager.LoadScene("Nivel2");
 
             }
-        }
-
+        }   
     }
 
     private void OnDrawGizmos()
