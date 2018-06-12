@@ -14,7 +14,7 @@ public class Peticion3 : MonoBehaviour
     private Text timer;
     private Text mostrar;
     private Text respuestat;
-    private float tiempo = 10f;
+    private float tiempo;
     private string Xml;
     private XmlDocument xmlDoc;
     private string codigo;
@@ -28,31 +28,71 @@ public class Peticion3 : MonoBehaviour
     private string Mensaje;
 
     /*Datos del servidor*/
-    private string DireccionIp = "192.168.127.19";
+    private string DireccionIp = "192.168.127.6";
     private string Puerto = "8080";
 
     /*Codigo Tags de los organelos*/
     private static string Mitocondria = "2C00AC3649";
-    private string pregunta = "¿Que organelo actua como la central electrica de la celula?";
+    private string pregunta = "4) ¿Que organelo actua como la central electrica de la celula?";
     private string respuesta = "2C00AC3649";
     private int aleatorio;
-
-
+    
+    public AudioSource sourceCorrecto;
+    public AudioSource sourceError;
+    public Image UIimagen;
+    public Text txt_aciertos;
+    public static int aciertos;
+    public Text txt_tiempo;
+    float tiempores = 60;
+    bool flag = false;
+    int tiempof;
 
     private void Start()
     {
-
+        sourceCorrecto = GameObject.Find("SonidoCorrecto").GetComponent<AudioSource>();
+        sourceError = GameObject.Find("SonidoError").GetComponent<AudioSource>();
+        UIimagen = GameObject.Find("ImagenCel").GetComponent<Image>();
+        txt_aciertos = GameObject.Find("Puntaje").GetComponent<Text>();
         mostrar = GameObject.FindGameObjectWithTag("mostrar").GetComponent<Text>();
         respuestat = GameObject.FindGameObjectWithTag("respuesta").GetComponent<Text>();
         sig = GameObject.FindGameObjectWithTag("sig").GetComponent<Button>();
+        txt_tiempo = GameObject.Find("Tiempo").GetComponent<Text>();
         sig.interactable = false;
         mostrar.text = pregunta;
+        txt_aciertos.text = "" + aciertos + " de 5";
         Empezar();
     }
 
     public void Empezar()
     {
         StartCoroutine(GetText());
+    }
+
+    public void Update()
+    {
+        tiempores = float.Parse(txt_tiempo.text);
+        //Debug.Log("tiempo " + tiempores);
+        if (tiempores <= 0)
+        {
+            sig.interactable = true;
+            respuestat.text = "Se te acabo el tiempo";
+        }
+        else
+        {
+            if (flag == true)
+            {
+                CountDown cd = new CountDown();
+                cd.cambiarBandera();
+                txt_tiempo.text = "" + tiempof;
+                sig.interactable = true;
+                respuestat.text = "Puedes pasar al guiente reto!";
+            }
+        }
+    }
+
+    public void actualizarAciertos(int tem)
+    {
+        aciertos = tem;
     }
 
     IEnumerator GetText()
@@ -104,11 +144,15 @@ public class Peticion3 : MonoBehaviour
 
                 if (codigo.Equals(Mitocondria) && codigo.Equals(respuesta))
                 {
+                    aciertos++;
+                    sourceCorrecto.Play();
+                    UIimagen.sprite = Resources.Load<Sprite>("RecursosReto/Correcto");
                     respuestat.text = "Correcto";
                     cit = GameObject.FindGameObjectWithTag("Mitocondria").GetComponent<Image>();
                     cit.enabled = true;
                     yield return new WaitForSeconds(2f);
                     cit.enabled = false;
+                    UIimagen.sprite = Resources.Load<Sprite>("RecursosReto/CelulaReto");
                     sig.interactable = true;
                     Application.OpenURL("https://www.youtube.com/watch?v=frsw4farM6g");
                     continue;
@@ -117,11 +161,19 @@ public class Peticion3 : MonoBehaviour
                 }
                 else
                 {
+                    sourceError.Play();
+                    UIimagen.sprite = Resources.Load<Sprite>("RecursosReto/Error");
+                    respuestat.text = "Incorrecto";
+                    yield return new WaitForSeconds(1f);
+                    UIimagen.sprite = Resources.Load<Sprite>("RecursosReto/CelulaReto");
+                    sig.interactable = true;
                     respuestat.text = "Incorrecto";
                     yield return new WaitForSeconds(2f);
                     respuestat.text = "";
                 }
             }
+            Peticion4 aux = new Peticion4();
+            aux.actualizarAciertos(aciertos);
         }
 
 
