@@ -6,14 +6,15 @@ public class CamaraSeguimiento : MonoBehaviour {
 
     //Objeto a seguir
     public GameObject seguido;
+
     //Para limitar la posicion de la camara
     //Minima y maxima posicion de la camara 
     public Vector3 minCamPos, maxCamPos;
 
     //segundos de retardo o suavizado
-    public float smoothTime;
+    //public float smoothTime;
 
-    private Vector3 velocidad;
+    //private Vector3 velocidad;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +28,7 @@ public class CamaraSeguimiento : MonoBehaviour {
         //Obtenemos la posicion del objeto a seguir
         float posY = seguido.transform.position.y;
         float posZ = seguido.transform.position.z;
-
+        transform.position = new Vector3(transform.position.x, posY, posZ);
         /*
          * float posY = Mathf.SmoothDamp(transform.position.y, seguido.transform.position.y,
             ref velocidad.y, smoothTime);
@@ -35,9 +36,9 @@ public class CamaraSeguimiento : MonoBehaviour {
                 ref velocidad.z, smoothTime);
          */
         //Cambiamos la posicion de la camara
-        transform.position = new Vector3(
+        /*transform.position = new Vector3(
             transform.position.x,
             Mathf.Clamp(posY, minCamPos.y, maxCamPos.y),
-            Mathf.Clamp(posZ, minCamPos.z, maxCamPos.z));
+            Mathf.Clamp(posZ, minCamPos.z, maxCamPos.z));*/
     }
 }

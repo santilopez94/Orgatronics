@@ -1,0 +1,1808 @@
+fileFormatVersion: 2
+guid: 81dd6b4e996d553488d48bdcf717682c
+timeCreated: 1528902336
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: grasa 1_1
+    21300002: grasa 1_2
+    21300004: grasa 1_3
+    21300006: grasa 1_4
+    21300008: grasa 1_5
+    21300010: grasa 1_6
+    21300012: grasa 1_7
+    21300014: grasa 1_8
+    21300016: grasa 1_9
+    21300018: grasa 1_10
+    21300020: grasa 1_11
+    21300022: grasa 1_12
+    21300024: grasa 1_13
+    21300026: grasa 1_14
+    21300028: grasa 1_15
+    21300030: grasa 1_16
+    21300032: grasa 1_17
+    21300034: grasa 1_18
+    21300036: grasa 1_19
+    21300038: grasa 1_20
+    21300040: grasa 1_21
+    21300042: grasa 1_22
+    21300044: grasa 1_23
+    21300046: grasa 1_24
+    21300048: grasa 1_25
+    21300050: grasa 1_26
+    21300052: grasa 1_27
+    21300054: grasa 1_28
+    21300056: grasa 1_29
+    21300058: grasa 1_30
+    21300060: grasa 1_31
+    21300062: grasa 1_32
+    21300064: grasa 1_33
+    21300066: grasa 1_34
+    21300068: grasa 1_35
+    21300070: grasa 1_37
+    21300072: grasa 1_38
+    21300074: grasa 1_40
+    21300076: grasa 1_41
+    21300078: grasa 1_43
+    21300080: grasa 1_44
+    21300082: grasa 1_47
+    21300084: grasa 1_48
+    21300086: grasa 1_51
+    21300088: grasa 1_52
+    21300090: grasa 1_55
+    21300092: grasa 1_56
+    21300094: grasa 1_59
+    21300096: grasa 1_60
+    21300098: grasa 1_62
+    21300100: grasa 1_63
+    21300102: grasa 1_65
+    21300104: grasa 1_66
+    21300106: grasa 1_68
+    21300108: grasa 1_69
+    21300110: grasa 1_70
+    21300112: grasa 1_71
+    21300114: grasa 1_72
+    21300116: grasa 1_73
+    21300118: grasa 1_74
+    21300120: grasa 1_75
+    21300122: grasa 1_77
+    21300124: grasa 1_78
+    21300126: grasa 1_80
+    21300128: grasa 1_81
+    21300130: grasa 1_84
+    21300132: grasa 1_85
+    21300134: grasa 1_88
+    21300136: grasa 1_89
+    21300138: grasa 1_92
+    21300140: grasa 1_93
+    21300142: grasa 1_96
+    21300144: grasa 1_97
+    21300146: grasa 1_100
+    21300148: grasa 1_101
+    21300150: grasa 1_104
+    21300152: grasa 1_105
+    21300154: grasa 1_108
+    21300156: grasa 1_109
+    21300158: grasa 1_112
+    21300160: grasa 1_113
+    21300162: grasa 1_116
+    21300164: grasa 1_117
+    21300166: grasa 1_120
+    21300168: grasa 1_121
+    21300170: grasa 1_124
+    21300172: grasa 1_125
+    21300174: grasa 1_127
+    21300176: grasa 1_128
+    21300178: grasa 1_130
+    21300180: grasa 1_131
+    21300182: grasa 1_132
+    21300184: grasa 1_133
+    21300186: grasa 1_134
+    21300188: grasa 1_135
+    21300190: grasa 1_136
+    21300192: grasa 1_137
+    21300194: grasa 1_138
+    21300196: grasa 1_139
+    21300198: grasa 1_140
+    21300200: grasa 1_141
+    21300202: grasa 1_142
+    21300204: grasa 1_143
+    21300206: grasa 1_144
+    21300208: grasa 1_145
+    21300210: grasa 1_146
+    21300212: grasa 1_147
+    21300214: grasa 1_148
+    21300216: grasa 1_149
+    21300218: grasa 1_150
+    21300220: grasa 1_151
+    21300222: grasa 1_152
+    21300224: grasa 1_153
+    21300226: grasa 1_154
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grasa 1_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3803
+        width: 116
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_2
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 3803
+        width: 112
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3739
+        width: 186
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_4
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 3739
+        width: 187
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3675
+        width: 253
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_6
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 3675
+        width: 253
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3611
+        width: 317
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_8
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3611
+        width: 316
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3547
+        width: 368
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 3547
+        width: 364
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3483
+        width: 405
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_12
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 3483
+        width: 404
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3419
+        width: 432
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_14
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 3419
+        width: 431
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3355
+        width: 451
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_16
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 3355
+        width: 452
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_17
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3291
+        width: 465
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_18
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 3291
+        width: 463
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3227
+        width: 474
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_20
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 3227
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3163
+        width: 476
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_22
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 3163
+        width: 474
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3099
+        width: 475
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_24
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 3099
+        width: 476
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3035
+        width: 473
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_26
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 3035
+        width: 473
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2971
+        width: 466
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_28
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 2971
+        width: 466
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_29
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2907
+        width: 463
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_30
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 2907
+        width: 462
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_31
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2843
+        width: 473
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_32
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 2843
+        width: 473
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2779
+        width: 501
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_34
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 2779
+        width: 502
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_35
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2715
+        width: 530
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_37
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 2715
+        width: 532
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2651
+        width: 552
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_40
+      rect:
+        serializedVersion: 2
+        x: 1675
+        y: 2651
+        width: 552
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_41
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2587
+        width: 562
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_43
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2587
+        width: 562
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_44
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2523
+        width: 566
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_47
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 2523
+        width: 565
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_48
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2459
+        width: 566
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_51
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2459
+        width: 566
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_52
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2395
+        width: 565
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_55
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 2395
+        width: 566
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_56
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2331
+        width: 566
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_59
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 2331
+        width: 567
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_60
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2267
+        width: 556
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_62
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 2267
+        width: 557
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_63
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2203
+        width: 541
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_65
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 2203
+        width: 540
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_66
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2139
+        width: 515
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_68
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 2139
+        width: 517
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_69
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2075
+        width: 499
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_70
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 2075
+        width: 496
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_71
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 2011
+        width: 487
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_72
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 2011
+        width: 487
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_73
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1947
+        width: 509
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_74
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1947
+        width: 508
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_75
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1883
+        width: 535
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_77
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1883
+        width: 536
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_78
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1819
+        width: 560
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_80
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1819
+        width: 561
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_81
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1755
+        width: 582
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_84
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1755
+        width: 581
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_85
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1691
+        width: 595
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_88
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1691
+        width: 598
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_89
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1627
+        width: 603
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_92
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1627
+        width: 603
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_93
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1563
+        width: 609
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_96
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1563
+        width: 610
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_97
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1499
+        width: 614
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_100
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1499
+        width: 614
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_101
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1435
+        width: 619
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_104
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1435
+        width: 619
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_105
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1371
+        width: 625
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_108
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 1371
+        width: 624
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_109
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1307
+        width: 627
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_112
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 1307
+        width: 628
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_113
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1243
+        width: 627
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_116
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1243
+        width: 626
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_117
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1179
+        width: 610
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_120
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1179
+        width: 609
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_121
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1115
+        width: 583
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_124
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 1115
+        width: 583
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_125
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1051
+        width: 550
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_127
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1051
+        width: 548
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_128
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 987
+        width: 513
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_130
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 987
+        width: 509
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_131
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 923
+        width: 473
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_132
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 923
+        width: 471
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_133
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 858
+        width: 433
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_134
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 859
+        width: 433
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_135
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 795
+        width: 398
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_136
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 795
+        width: 397
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_137
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 731
+        width: 376
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_138
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 731
+        width: 372
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_139
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 667
+        width: 357
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_140
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 667
+        width: 357
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_141
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 603
+        width: 347
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_142
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 603
+        width: 347
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_143
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 539
+        width: 339
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_144
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 539
+        width: 338
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_145
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 475
+        width: 329
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_146
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 475
+        width: 330
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_147
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 411
+        width: 327
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_148
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 411
+        width: 322
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_149
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 347
+        width: 315
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_150
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 347
+        width: 314
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_151
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 283
+        width: 299
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_152
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 283
+        width: 299
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_153
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 223
+        width: 246
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: grasa 1_154
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 224
+        width: 246
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

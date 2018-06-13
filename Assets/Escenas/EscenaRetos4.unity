@@ -500,6 +500,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: db4d80083b4d521459b49c309423679a,
         type: 3}
+    - target: {fileID: 114133216994698886, guid: 6e78e8bb63c85a043b2526623554ebfb,
+        type: 2}
+      propertyPath: m_Text
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e78e8bb63c85a043b2526623554ebfb, type: 2}
   m_IsPrefabParent: 0
