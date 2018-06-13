@@ -56,6 +56,7 @@ TagManager:
   - rayo18
   - respuesta
   - sig
+  - barra
   layers:
   - Default
   - TransparentFX
