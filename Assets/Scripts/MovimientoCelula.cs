@@ -128,8 +128,8 @@ public class MovimientoCelula : MonoBehaviour
             {
                 Debug.Log("Detectando colision");
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (3)"));
-                energy.value = 70;
+                Destroy(GameObject.Find("rayo (7)"));
+                energy.value += 10;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
@@ -137,7 +137,7 @@ public class MovimientoCelula : MonoBehaviour
             {
                 source.PlayOneShot(sonidoRayo, 1f);
                 Destroy(GameObject.Find("rayo (4)"));
-                energy.value = 80;
+                energy.value += 10;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
@@ -145,7 +145,7 @@ public class MovimientoCelula : MonoBehaviour
             {
                 source.PlayOneShot(sonidoRayo, 1f);
                 Destroy(GameObject.Find("rayo (5)"));
-                energy.value = 90;
+                energy.value += 10;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
@@ -153,7 +153,7 @@ public class MovimientoCelula : MonoBehaviour
             {
                 source.PlayOneShot(sonidoRayo, 1f);
                 Destroy(GameObject.Find("rayo (6)"));
-                energy.value = 100;
+                energy.value += 10;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
