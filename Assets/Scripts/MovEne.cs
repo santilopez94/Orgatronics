@@ -14,7 +14,7 @@ public class MovEne : MonoBehaviour
     private Vector3 dirActual = Vector3.right;
 
 
-    public float distRayo = 1;
+    public float distRayo = 2;
 
     // Use this for initialization
     void Start()
@@ -28,10 +28,16 @@ public class MovEne : MonoBehaviour
         bool stopr = false;
         bool stopiz = false;
 
-        if(IsMovingIzquierda)
+        if (IsMovingIzquierda)
+        {
+            Debug.Log("Toco izquierda");
             stopiz = Physics.Raycast(transform.position, Vector3.left, distRayo, LayerMask.GetMask("enemigos"));
-        if(IsMovingDerecha)
-            stopr = Physics.Raycast(transform.position, Vector3.right, distRayo, LayerMask.GetMask("enemigos"));        
+        }
+        if (IsMovingDerecha)
+        {
+            Debug.Log("Toco derecha");
+            stopr = Physics.Raycast(transform.position, Vector3.right, distRayo, LayerMask.GetMask("enemigos"));
+        } 
         
 
         if (stopr)
