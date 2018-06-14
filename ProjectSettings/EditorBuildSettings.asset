@@ -32,3 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Escenas/EscenaRetos5.unity
     guid: f7cd1e063b53c73409df7cd10e718d43
+  - enabled: 1
+    path: Assets/Escenas/Creditos.unity
+    guid: 2481ed071bcc2e44993c7935b019e51f
