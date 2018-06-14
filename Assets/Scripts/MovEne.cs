@@ -74,7 +74,8 @@ public class MovEne : MonoBehaviour
             {
                 sonido.Play();
                 Debug.Log("Entro en la celula");
-                Destroy(GameObject.Find("Celula"));
+                GameObject.Find("Celula").SetActive(false);
+                //Destroy(GameObject.Find("Celula"));
                 SceneManager.LoadScene("Escena1");
 
             }
@@ -84,7 +85,8 @@ public class MovEne : MonoBehaviour
             if (other.gameObject.CompareTag("cel"))
             {
                 sonido.Play();
-                Destroy(GameObject.Find("Celula"));
+                //Destroy(GameObject.Find("Celula"));
+                GameObject.Find("Celula").SetActive(false);
                 SceneManager.LoadScene("Nivel2");
 
             }

@@ -175,8 +175,8 @@ public class MovimientoCelula : MonoBehaviour
             if (other.gameObject.CompareTag("rayo1"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (3)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (1)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
                 Math.Round(actualener);
@@ -184,8 +184,8 @@ public class MovimientoCelula : MonoBehaviour
             if (other.gameObject.CompareTag("rayo2"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (4)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (2)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
                 Math.Round(actualener);
@@ -193,8 +193,8 @@ public class MovimientoCelula : MonoBehaviour
             if (other.gameObject.CompareTag("rayo3"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (5)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (3)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
                 Math.Round(actualener);
@@ -202,8 +202,8 @@ public class MovimientoCelula : MonoBehaviour
             if (other.gameObject.CompareTag("rayo4"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (6)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (4)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
                 Math.Round(actualener);
@@ -211,8 +211,8 @@ public class MovimientoCelula : MonoBehaviour
             if (other.gameObject.CompareTag("rayo5"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (7)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (5)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
                 Math.Round(actualener);
@@ -220,92 +220,28 @@ public class MovimientoCelula : MonoBehaviour
             if (other.gameObject.CompareTag("rayo6"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (8)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (6)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
             if (other.gameObject.CompareTag("rayo7"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (9)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (7)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
             if (other.gameObject.CompareTag("rayo8"))
             {
                 source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (10)"));
-                energy.value = actualener + 2.5f;
+                Destroy(GameObject.Find("rayo (8)"));
+                energy.value = actualener + 5f;
                 totalpuntaje = totalpuntaje + 100;
                 puntaje.text = " " + totalpuntaje;
             }
-            if (other.gameObject.CompareTag("rayo9"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (11)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo10"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (12)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo11"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (13)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo12"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (14)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo13"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (15)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo14"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (16)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo15"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (17)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-            if (other.gameObject.CompareTag("rayo16"))
-            {
-                source.PlayOneShot(sonidoRayo, 1f);
-                Destroy(GameObject.Find("rayo (18)"));
-                energy.value = actualener + 2.5f;
-                totalpuntaje = totalpuntaje + 100;
-                puntaje.text = " " + totalpuntaje;
-            }
-
+           
             if (energy.value == 100)
             {
                 source.PlayOneShot(sonidoMeta, 0.1f);
